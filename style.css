@@ -1,0 +1,163 @@
+* {
+    font-family: "Capsule Sans Text", sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar .home {
+      font-weight: bold;
+      font-size: 16px;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #3DD617;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.btn1 {
+        border-radius: 50px;
+        float: right;
+        padding: 13px 30px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+        margin-left: 1em;
+        display: flex;
+        background-color: black;
+        color: white;
+}
+
+.btn2 {
+    border-radius: 50px;
+    float: right;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 1em;
+    display: flex;
+    background-color: white;
+    color: black;
+}
+video {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+.video-overlay {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+  .video-overlay h2 {
+      position: relative;
+      color: #c3f53d;
+      padding: 5px;
+      text-align: left;
+      font-size: 55px; 
+      z-index:1;
+      left: 380px;
+      top: -100px;    
+      max-width: 400px;   
+
+  }
+  .video-overlay button {
+    position: relative;
+    background-color: #c3f53d;
+    color: black;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+    font-size: large; 
+    z-index:1;
+    right: 20px;
+    top: 10px;  
+
+  }
+.banner {
+    text-align: center;
+    color: #000000;
+    display: block;
+    width: 100%;
+    position: absolute;
+    display: block;
+    border-style: solid;
+    bottom: -1em;
+}
+.container img {
+    width: 100vw;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index:-1;
+}
+.postoverlay {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    color: black;
+    font-size: xx-large;
+    text-align: left;
+}
